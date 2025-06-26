@@ -59,6 +59,9 @@ ML-NLP-Engineer/
 
 
 
+
+
+---
 ## 🚀 Getting Started
 ### Download dataset from here:
 [`reviews.csv`](https://drive.google.com/file/d/1uvPBl2z3mdrECuY80mTyAcVJm3QLD_9q/view?usp=sharing)  
@@ -70,8 +73,6 @@ python -m venv venv
 source venv/bin/activate    # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
-
----
 
 ### 📊 Step 2: Explore the Data
 
