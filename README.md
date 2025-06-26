@@ -5,7 +5,7 @@
 
 ## 🎯 Objective
 
-Build a complete **text classification pipeline** using Hugging Face Transformers. This challenge demonstrates end-to-end proficiency in:
+Build a complete **Sentiment classification pipeline** using Hugging Face Transformers. This challenge demonstrates end-to-end proficiency in:
 
 - Text preprocessing and cleaning
 - Transformer-based model fine-tuning (`DistilBERT`)
@@ -16,12 +16,12 @@ Build a complete **text classification pipeline** using Hugging Face Transformer
 
 ## 📋 Task Overview
 
-- ✅ Choose a labeled text dataset (e.g., movie reviews, product sentiment)
+- ✅ Choose a labeled text dataset (e.g.amazon multilingual product review)
 - ✅ Clean, normalize, and tokenize using Hugging Face tokenizers
 - ✅ Fine-tune a pre-trained transformer (DistilBERT)
 - ✅ Evaluate the model on test data using standard metrics
 - ✅ Provide reports, visualizations, and insights
-- 🌐 *(Bonus)*: Support multilingual sentiment classification
+- 🌐 Support multilingual sentiment classification
 
 ---
 
@@ -120,7 +120,7 @@ python train.py
 
 - Leveraged Hugging Face Transformers for efficient fine-tuning  
 - Achieved high accuracy and balanced performance across classes  
-- Implemented robust multilingual support *(optional bonus)*  
+- Implemented robust multilingual support  
 - Generated meaningful visualizations and reports for insight  
 
 ---
