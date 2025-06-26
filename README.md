@@ -57,22 +57,50 @@ ML-NLP-Engineer/
 │   ├── confusion_matrix.png        # Visual performance evaluation
 │   └── model_report.md             # Technical summary and findings
 
+```
+---
 
+## 🚀 Getting Started
 
+### 📄 Download dataset from here:
 
+[`reviews.csv`](https://drive.google.com/file/d/1uvPBl2z3mdrECuY80mTyAcVJm3QLD_9q/view?usp=sharing)
 
 ---
-## 🚀 Getting Started
-### Download dataset from here:
-[`reviews.csv`](https://drive.google.com/file/d/1uvPBl2z3mdrECuY80mTyAcVJm3QLD_9q/view?usp=sharing)  
 
-### ✅ Step 1: Environment Setup
+### ⚖️ Step 1: Environment Setup
+
+Follow these instructions to set up your development environment:
+
+#### 🔹 Create a Virtual Environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
+```
+
+#### 🔹 Activate the Virtual Environment
+
+* **On macOS/Linux**:
+
+```bash
+source venv/bin/activate
+```
+
+* **On Windows**:
+
+```bash
+venv\Scripts\activate
+```
+
+#### 🔹 Install Required Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
+
+> ✅ Tip: Make sure you have Python 3.7+ and pip installed. You can verify with `python --version` and `pip --version`.
+
+---
 
 ### 📊 Step 2: Explore the Data
 
@@ -80,7 +108,6 @@ Open Jupyter notebook for exploration:
 
 ```bash
 python -m src.data_preprocessing
-
 ```
 
 ```bash
@@ -89,7 +116,7 @@ jupyter notebook notebooks/data_exploration.ipynb
 
 ---
 
-### 🏋️‍♂️ Step 3: Train the Model
+### 🏋️ Step 3: Train the Model
 
 Run the training pipeline:
 
@@ -107,6 +134,7 @@ Visualize performance and perform error analysis:
 jupyter notebook notebooks/evaluation_analysis.ipynb
 ```
 
+---
 
 ### ▶️ Optional Step: Run the Entire Pipeline
 
@@ -115,21 +143,21 @@ This command runs preprocessing, model training, and launches the evaluation not
 ```bash
 python train.py
 ```
+
 ---
 
 ## 🧠 Key Learnings & Highlights
 
-- Leveraged Hugging Face Transformers for efficient fine-tuning  
-- Achieved high accuracy and balanced performance across classes  
-- Implemented robust multilingual support  
-- Generated meaningful visualizations and reports for insight  
+* Leveraged Hugging Face Transformers for efficient fine-tuning
+* Achieved high accuracy and balanced performance across classes
+* Implemented robust multilingual support
+* Generated meaningful visualizations and reports for insight
 
 ---
 
 ## 🛠️ Tools & Libraries
 
-- Python, PyTorch, Hugging Face Transformers  
-- scikit-learn, Matplotlib/Seaborn, Jupyter Notebook
-
+* Python, PyTorch, Hugging Face Transformers
+* scikit-learn, Matplotlib/Seaborn, Jupyter Notebook
 
 ---
